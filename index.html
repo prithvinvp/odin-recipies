@@ -3,26 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipies</title>
+        <link rel="stylesheet" href="./index.css">
     </head>
     <body>
         <!------------ Odin Recipies Header -------------->
 
         <h1 id="header">
-            Odin Recipies
+            <em>
+                 Odin Recipies
+            </em>
         </h1>
 
+        <p> Odin recipies is a place where you get all the instructions for creating that wonderful dish you always dreamt off. Here are some of our popular dishes. Try and enjoy them</p>
+
         <!------------ Links to recipies ------------------>
-        
+
         <div id="recipies">
-            <a>
-                <img src="./Assets/shahi-murgh-chicken-curry-1957379-hero-01-1c891314ad55492e9abb7869a1457dc0.jpeg" alt="Chicken Curry" id="chicken-curry">
-            </a>
-            <a>
-                <img src="./Assets/Best-Mutton-Biryani-Recipe.jpeg" alt="Mutton Biryani" id="biryani">
-            </a>
-            <a>
-                <img src="./Assets/63841432.webp" alt="" id="dosa">
-            </a>
+            <table>
+                <tr>
+                    <td>
+                        <a href="./HTML/chicken-curry.html">
+                            <img src="./Assets/shahi-murgh-chicken-curry-1957379-hero-01-1c891314ad55492e9abb7869a1457dc0.jpeg" alt="Chicken Curry" id="chicken-curry">
+                        </a>
+                        <h1 id="chicken-curry" style="margin-left:7rem ;"> 
+                            chicken curry
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="./HTML/mutton-biryani.html">
+                            <img src="./Assets/Best-Mutton-Biryani-Recipe.jpeg" alt="Mutton Biryani" id="biryani">
+                        </a>
+                        <h1 id="mutton-biryani" style="margin-left: 7rem;">
+                            Mutton Biryani
+                        </h1>
+                    </td>
+                    <td>
+                        <a href="./HTML/dosa.html">
+                            <img src="./Assets/63841432.webp" alt="" id="dosa">
+                        </a>
+                        <h1 id="dosa" style="margin-left: 12rem">
+                            Dosa
+                        </h1>
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
