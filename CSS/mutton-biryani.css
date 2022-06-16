@@ -1,0 +1,39 @@
+body{
+    width: 1300px;
+    height: auto;
+    background-color: bisque;
+    margin: 5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
+    margin-top: 3rem;
+    border-radius: 5%;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background-color: green;
+    margin-left: 30rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+}
+
+
